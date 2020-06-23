@@ -17,4 +17,5 @@ df=df_initial[['PassengerId', 'Survived', 'Age','Pclass', 'Sex','SibSp',
 
 sns.swarmplot(x=df.Sex,y=df.Age,hue=df.Survived)
 
-# sex,pclass,sibsp,Embarked
+# sex,pclass,sibsp,Embarked THESE ARE THE VARIABLES OR COLUMNS THAT I WILL USE TO DECIDE IF A PERSON SURVIVED.
+
